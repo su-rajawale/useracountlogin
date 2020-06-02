@@ -1,0 +1,82 @@
+			body {
+				background-image: url(background0.jpg);
+				background-size: cover;
+			}
+
+			input[type=text],
+			input[type=password] {
+				display: block;
+				width: 100%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+				box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+				border-radius: 8px;
+			}
+
+			.btn {
+				background-color: #F49B0C;
+				color: white;
+				transition: transform .2s;
+				padding: 16px 23px;
+				margin: 8px 0;
+				border: none;
+				box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+				cursor: pointer;
+			}
+
+			.btn:hover {
+				transform: scale(1.1);
+			}
+
+			.viewframe{
+				background-color: #FEFEFE;
+				background-image: url(); 
+        		margin: 5% auto 15% auto; 
+        		border: 1px solid #888;
+        		width: 65%; 
+        		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        		/*resize: horizontal;
+        		overflow: auto;*/
+			}
+
+			.text {
+				text-align: center;
+				font-family: 'Merriweather', serif;
+			}
+
+			.image-container {
+				text-align: center;
+			}
+
+			img.image {
+				width: 90%;
+			}
+
+			.container {
+				display: block;
+				padding: 10px;
+				margin: auto;
+				width: 50%;
+				text-align: center;
+			}
+
+			.buffer {
+				height: 50px;
+			}
+
+			.usr, .lck {
+			width: 30px;
+			height: 30px;
+			}
+			
+			span.rm{
+				float: left;
+				padding-top: 20px;
+			}
+
+			span.fp{
+				float: right;
+				padding-top: 20px;
+			}
